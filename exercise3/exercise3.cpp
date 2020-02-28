@@ -4,7 +4,7 @@
 using namespace cv;
 
 int main() {
-	uchar threshold = 100;
+	uchar threshold = 100;//
 	cv::Mat srcMat = imread("C:112.jpg");
 	int height = srcMat.rows;
 	int width = srcMat.cols;
